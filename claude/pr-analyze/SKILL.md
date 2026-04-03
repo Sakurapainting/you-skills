@@ -1,3 +1,8 @@
+---
+name: pr-analyze
+description: "Comprehensive GitHub PR analysis workflow for Claude. Use when user provides a PR number or URL and asks to analyze purpose, impact, CI status, related PRs, and review risks."
+---
+
 # PR Analyze
 
 用于在 Claude 环境中对 GitHub Pull Request 做结构化分析，并输出中文结论。
