@@ -18,6 +18,7 @@ This repository hosts vendor-specific skill packages and supporting documentatio
 
 - `copilot/pr-analyze/`: GitHub Copilot version of the pull request analysis skill.
 - `claude/pr-analyze/`: Claude version of the pull request analysis skill.
+- `claude/repo-sync-dev-main/`: Claude skill for managing self-owned repository sync from `dev` to `main` via PR creation, merge, and branch alignment.
 
 ## Getting Started
 
@@ -26,7 +27,7 @@ This repository hosts vendor-specific skill packages and supporting documentatio
 3. Place Copilot skill files under `~/.copilot/skills/<skill-name>/` and keep `SKILL.md` as the main instruction file.
 4. Place Claude skill files under `~/.claude/skills/<skill-name>/`, keep `SKILL.md` as the main instruction file, and add `name`/`description` frontmatter.
 5. If you use GitHub Copilot, read `copilot/pr-analyze/SKILL.md`.
-6. If you use Claude, read `claude/pr-analyze/SKILL.md`.
+6. If you use Claude, read `claude/pr-analyze/SKILL.md` or `claude/repo-sync-dev-main/SKILL.md` depending on the workflow.
 7. Adjust or extend skill content based on your team needs.
 
 ## Contributing
