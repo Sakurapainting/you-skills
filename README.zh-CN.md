@@ -23,9 +23,11 @@
 
 1. 克隆仓库。
 2. 使用编辑器打开仓库目录。
-3. 如果你使用 GitHub Copilot，请阅读 `copilot/pr-analyze/SKILL.md`。
-4. 如果你使用 Claude，请阅读 `claude/pr-analyze/CLAUDE.md`。
-5. 根据团队规范调整或扩展技能内容。
+3. Copilot skill 文件应放在 `~/.copilot/skills/<skill-name>/` 下，并以 `SKILL.md` 作为主说明文件。
+4. Claude skill 文件应放在 `~/.claude/skills/<skill-name>/` 下，并以 `CLAUDE.md` 作为主说明文件。
+5. 如果你使用 GitHub Copilot，请阅读 `copilot/pr-analyze/SKILL.md`。
+6. 如果你使用 Claude，请阅读 `claude/pr-analyze/CLAUDE.md`。
+7. 根据团队规范调整或扩展技能内容。
 
 ## 贡献指南
 
