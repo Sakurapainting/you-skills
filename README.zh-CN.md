@@ -2,28 +2,30 @@
 
 [English](README.md)
 
-这是一个可复用的 Copilot 技能与工作流资源集合。
+这是一个可复用的 AI 助手技能与工作流资源集合。
 
 ## 项目简介
 
-本仓库用于存放技能包及配套文档，帮助团队在 VS Code + GitHub Copilot 场景下提升开发效率与协作质量。
+本仓库用于存放按厂商区分的技能包及配套文档，帮助团队在不同 AI 助手场景下复用工程工作流。
 
 ## 主要特性
 
 - 面向特定工程任务的可复用技能包。
-- 每个技能目录提供清晰的 `SKILL.md` 使用说明。
-- 结构简单，便于按需扩展更多技能。
+- 每个技能提供清晰的厂商专属说明文件。
+- 采用可扩展的 `vendor/skill` 目录结构。
 
 ## 目录结构
 
-- `pr-analyze/`：用于 Pull Request 分析流程的技能包。
+- `copilot/pr-analyze/`：GitHub Copilot 版本的 Pull Request 分析技能。
+- `claude/pr-analyze/`：Claude 版本的 Pull Request 分析技能。
 
 ## 快速开始
 
 1. 克隆仓库。
-2. 使用 VS Code 打开仓库目录。
-3. 进入对应技能目录并阅读 `SKILL.md`。
-4. 根据团队规范调整或扩展技能内容。
+2. 使用编辑器打开仓库目录。
+3. 如果你使用 GitHub Copilot，请阅读 `copilot/pr-analyze/SKILL.md`。
+4. 如果你使用 Claude，请阅读 `claude/pr-analyze/CLAUDE.md`。
+5. 根据团队规范调整或扩展技能内容。
 
 ## 贡献指南
 
@@ -32,8 +34,9 @@
 1. Fork 本仓库。
 2. 创建功能分支：`git checkout -b feat/your-change`。
 3. 保持改动聚焦，并清晰说明修改意图。
-4. 使用明确的提交信息进行提交。
-5. 提交 Pull Request，并附上：
+4. 厂商专属规范应保留在各自目录中，不要混写。
+5. 使用明确的提交信息进行提交。
+6. 提交 Pull Request，并附上：
    - 本次改动摘要
    - 改动动机
    - 验证说明（如有）
